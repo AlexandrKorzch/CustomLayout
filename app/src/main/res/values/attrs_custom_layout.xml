@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="CustomLayout">
+        <attr name="picture" format="string"/>
+    </declare-styleable>
+</resources>

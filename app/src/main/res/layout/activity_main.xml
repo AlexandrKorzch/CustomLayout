@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alex.customlayout.CustomLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/customLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivFirst"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:scaleType="centerCrop"
+        app:picture="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQr061HzYEy_fytkw0-aW-LWz939v5_Q5ARyEZ4DL6onR9LMLQ"/>
+
+    <ImageView
+        android:id="@+id/ivSecond"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:scaleType="centerCrop"
+        app:picture="https://www.worldatlas.com/r/w728-h425-c728x425/upload/99/7e/c2/shutterstock-620232887.jpg"/>
+
+    <ImageView
+        android:id="@+id/ivThird"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:scaleType="centerCrop"
+        app:picture="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGCTj70bE2dRdT5RB3Pzaay5lReIP89p7LVIupbolBV-YMLM8G"/>
+
+    <ImageView
+        android:id="@+id/ivFourth"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:scaleType="centerCrop"
+        app:picture="https://www.emirates247.com/polopoly_fs/1.646656.1484724640!/image/image.jpg"/>
+
+    <ImageView
+        android:id="@+id/ivFifth"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:scaleType="centerCrop"
+        app:picture="https://www.usnews.com/dims4/USNEWS/3da61a8/2147483647/thumbnail/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F22%2Fae%2F9c8a1ce641b783787fd8d44202cd%2Fresizes%2F1500%2F180709-durham-editorial.jpg"/>
+
+</com.alex.customlayout.CustomLayout>
